@@ -1,0 +1,17 @@
+/**  ////////////////////////////////// video Block  ////////////////////////////////// */
+.video-item.not-show { display: none; }
+
+.video-outer { vertical-align: top; }
+.video-outer .video-headlines { margin: 5px 0; border-bottom: 1px #EEE solid; font-size: 20px; }
+.video-outer .video-inner > a { display: block; }
+.video-outer .video-img { height: 200px; display: block; background-size: cover; background-repeat: no-repeat; background-position: center center; }
+.video-outer span.tags { border-bottom: 1px #888 solid; margin: 0 5px; font-size: 10px; }
+.video-outer span.tags:first-child, .video-outer span.tags:last-child { margin-left: 0; }
+.video-outer .video-footer { clear: both; display: inline-block; width: 100%; }
+.video-outer .video-footer .video-link { display: inline-block; position: relative; float: left; }
+.video-outer .video-footer .video-timeline { display: inline-block; position: relative; float: right; font-size: 13px; font-style: italic; vertical-align: middle; margin: 10px 0; padding: 5px 0; }
+
+/**  ////////////////////////////////// video Tags Block  ////////////////////////////////// */
+.tag-group { margin: 0 0 25px 0; }
+.tag-group .tag-cloud { margin: 0 2px; cursor: pointer; }
+.tag-group .tag-cloud .active { background: #ccc; }

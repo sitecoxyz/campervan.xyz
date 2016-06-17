@@ -1,0 +1,27 @@
+[
+	{
+		"name": "How To Load Motorcycle in Van Alone EASY",
+		"author": "CycleCruza",
+		"image": "placeholder.jpg",
+		"url": "https://www.youtube.com/watch?v=mq1YguXZQ0Q",
+		"tags": ["bike","bro", "bed"]
+	},
+	{
+		"name": "Cool video 2",
+		"image": "placeholder.jpg",
+		"url": "#",
+		"tags": ["build","solar"]
+	},
+	{
+		"name": "Cool video 3",
+		"image": "placeholder.jpg",
+		"url": "#",
+		"tags": ["solar"]
+	},
+	{
+		"name": "Cool video 4",
+		"image": "placeholder.jpg",
+		"tags": ["water"]
+	}
+
+]

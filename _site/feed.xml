@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Campervan.xyz</title>
+    <description>The campervan life</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 17 Jun 2016 11:14:21 -0400</pubDate>
+    <lastBuildDate>Fri, 17 Jun 2016 11:14:21 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>Do you have a van?</title>
+        <description>&lt;h1 id=&quot;have-a-van&quot;&gt;Have a van?&lt;/h1&gt;
+
+&lt;p&gt;Do you have a campervan?  What about a van with dreams to convert it?  Let us know about your situation in the discussion!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jun 2016 14:40:26 -0400</pubDate>
+        <link>http://localhost:4000/discussion/2016/06/12/do-you-have-a-van.html</link>
+        <guid isPermaLink="true">http://localhost:4000/discussion/2016/06/12/do-you-have-a-van.html</guid>
+        
+        
+        <category>discussion</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Campervan.xyz!</title>
+        <description>&lt;p&gt;Hi and welcome to campervan.xyz!  We strive to be the best source for campervan information and discussion on the internet.&lt;/p&gt;
+
+&lt;p&gt;We are avid campers with a passion for living free in small spaces.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Jun 2016 09:50:39 -0400</pubDate>
+        <link>http://localhost:4000/main/2016/06/04/welcome-to-campervanXYZ.html</link>
+        <guid isPermaLink="true">http://localhost:4000/main/2016/06/04/welcome-to-campervanXYZ.html</guid>
+        
+        
+        <category>main</category>
+        
+      </item>
+    
+  </channel>
+</rss>

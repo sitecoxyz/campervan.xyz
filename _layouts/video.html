@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<article class="post">
+
+  <div class="post-content">
+    {{ content }}
+
+    <div class="videos row">
+    {% include video_tags.html %}
+    {% for i in site.data.videos %}
+    <div class="video-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
+    	<div class="well video-outer">
+    		<div class="video-inner">
+    			<a href="/static/videos/{{ i.image }}" class="thickbox">
+    			<div class="video-img bordered" style="background-image: url('/static/videos/{{ i.image }}');"></div>
+                </a>
+                {% if i.url %} <a href="{{ i.url }}"> {% endif %}
+    			<h3 class="video-headlines">{{ i.name }}</h3>
+    			{% if i.url %} </a> {% endif %}
+    			<div class="video-content">
+    				<div class="tag-holder">
+    				{% if i.tags %}
+    					{% for j in i.tags %}
+    					<span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+    					{% endfor %}
+    				{% endif %}
+    				</div>
+    				<span class="video-timeline">{{ i.author }}</span>
+    			</div>
+    			<div class="video-footer">
+    				{% if i.url %}
+    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm video-link">View</a>
+    				{% endif %}
+    			</div>
+    		</div>
+    	</div>
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+
+</article>
